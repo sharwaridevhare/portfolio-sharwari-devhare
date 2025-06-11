@@ -25,14 +25,14 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto">
-            AI & Data Science Engineering Student at{' '}
-            <span className="text-english-brown font-semibold">KDK College of Engineering</span>
+            Passionate B.Tech Student specializing in{' '}
+            <span className="text-english-brown font-semibold">Artificial Intelligence & Data Science</span>
           </p>
           
           <div className={`transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
             <p className="text-lg text-foreground/80 mb-12 max-w-2xl mx-auto leading-relaxed">
-              From dreaming of medicine to discovering the magic of code. Now building my future in 
-              artificial intelligence and software development, one algorithm at a time.
+              Goal-driven developer with a creative mindset, focused on building smart web applications 
+              and AI-based tools that solve real-world problems through simplicity and functionality.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -40,7 +40,7 @@ const Hero = () => {
                 onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
                 className="bg-english-brown text-white px-8 py-4 rounded-lg font-semibold hover:bg-english-brown/90 transition-all duration-300 hover:shadow-lg hover:shadow-english-brown/25"
               >
-                View My Work
+                View My Projects
               </button>
               <button 
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}

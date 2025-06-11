@@ -1,18 +1,22 @@
 
 const Skills = () => {
   const skills = [
-    { name: 'Python', level: 90, category: 'Programming' },
-    { name: 'C', level: 85, category: 'Programming' },
-    { name: 'C++', level: 80, category: 'Programming' },
-    { name: 'NumPy', level: 85, category: 'Data Science' },
-    { name: 'Pandas', level: 80, category: 'Data Science' },
-    { name: 'Matplotlib', level: 75, category: 'Data Science' },
-    { name: 'SciPy', level: 70, category: 'Data Science' },
-    { name: 'GitHub', level: 85, category: 'Tools' },
-    { name: 'Problem Solving', level: 90, category: 'Soft Skills' },
+    { name: 'Python', level: 90, category: 'Programming Languages' },
+    { name: 'C', level: 85, category: 'Programming Languages' },
+    { name: 'C++', level: 85, category: 'Programming Languages' },
+    { name: 'JavaScript', level: 80, category: 'Programming Languages' },
+    { name: 'HTML/CSS', level: 85, category: 'Web Technologies' },
+    { name: 'Bootstrap', level: 75, category: 'Web Technologies' },
+    { name: 'Git', level: 80, category: 'Web Technologies' },
+    { name: 'NumPy', level: 85, category: 'AI/Data Science' },
+    { name: 'Pandas', level: 80, category: 'AI/Data Science' },
+    { name: 'Matplotlib', level: 75, category: 'AI/Data Science' },
+    { name: 'Quick Learning', level: 95, category: 'Soft Skills' },
+    { name: 'Analytical Thinking', level: 90, category: 'Soft Skills' },
+    { name: 'Team Collaboration', level: 85, category: 'Soft Skills' },
   ];
 
-  const categories = ['Programming', 'Data Science', 'Tools', 'Soft Skills'];
+  const categories = ['Programming Languages', 'Web Technologies', 'AI/Data Science', 'Soft Skills'];
 
   return (
     <section id="skills" className="section-padding bg-cream/30">
@@ -22,7 +26,8 @@ const Skills = () => {
             Skills & Technologies
           </h2>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            A comprehensive toolkit for building intelligent solutions and analyzing complex data patterns.
+            A comprehensive toolkit for developing smart applications, AI automation, 
+            and solving complex problems through logical programming.
           </p>
         </div>
 
@@ -60,13 +65,31 @@ const Skills = () => {
         <div className="mt-16 text-center">
           <div className="bg-white rounded-xl p-8 shadow-lg max-w-4xl mx-auto">
             <h3 className="font-playfair text-2xl font-semibold text-deep-brown mb-4">
-              Always Learning
+              Focus Areas
             </h3>
-            <p className="text-foreground/70 leading-relaxed">
-              Technology evolves rapidly, and so do I. Currently exploring machine learning algorithms, 
-              deep learning frameworks, and advanced data visualization techniques to stay at the forefront 
-              of AI and data science innovation.
-            </p>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-center">
+              <div className="p-4">
+                <div className="w-12 h-12 bg-english-brown/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+                  <span className="text-english-brown text-xl">🤖</span>
+                </div>
+                <h4 className="font-semibold text-deep-brown mb-2">AI Automation</h4>
+                <p className="text-sm text-foreground/70">Building intelligent systems that automate complex tasks</p>
+              </div>
+              <div className="p-4">
+                <div className="w-12 h-12 bg-english-brown/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+                  <span className="text-english-brown text-xl">🌐</span>
+                </div>
+                <h4 className="font-semibold text-deep-brown mb-2">Web Development</h4>
+                <p className="text-sm text-foreground/70">Creating responsive and user-friendly web applications</p>
+              </div>
+              <div className="p-4">
+                <div className="w-12 h-12 bg-english-brown/10 rounded-lg flex items-center justify-center mx-auto mb-3">
+                  <span className="text-english-brown text-xl">🧠</span>
+                </div>
+                <h4 className="font-semibold text-deep-brown mb-2">Logical Programming</h4>
+                <p className="text-sm text-foreground/70">Solving complex problems with analytical thinking</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>

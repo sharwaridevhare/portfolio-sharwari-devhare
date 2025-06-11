@@ -11,33 +11,34 @@ const About = () => {
             
             <div className="space-y-6 text-foreground/80 leading-relaxed">
               <p className="text-lg">
-                My journey into technology began with an unexpected turn. Initially preparing for medical entrance exams, 
-                I discovered the fascinating world of programming and artificial intelligence, which completely changed my perspective.
+                I am a passionate and goal-driven B.Tech student specializing in Artificial Intelligence & Data Science. 
+                With a strong background in programming and a creative mindset, I focus on developing smart web applications 
+                and AI-based tools.
               </p>
               
               <p className="text-lg">
-                Now pursuing AI & Data Science Engineering at KDK College of Engineering, I've found my passion in 
-                building intelligent solutions and analyzing complex data patterns. Every line of code I write brings me 
-                closer to creating meaningful impact through technology.
+                My projects reflect simplicity, functionality, and real-world problem-solving. I believe in creating 
+                technology that not only works efficiently but also addresses genuine challenges that people face in 
+                their daily lives.
               </p>
               
               <p className="text-lg">
-                When I'm not coding, you'll find me exploring new technologies, working on personal projects, or 
-                diving deep into the latest AI research. I believe in continuous learning and the power of technology 
-                to solve real-world problems.
+                When I'm not coding, you'll find me exploring new AI technologies, working on automation tools, or 
+                diving deep into logical programming challenges. I'm always eager to learn and collaborate with 
+                like-minded individuals who share my passion for innovation.
               </p>
             </div>
             
             <div className="grid grid-cols-2 gap-6 pt-6">
               <div className="bg-cream/50 p-4 rounded-lg">
                 <h3 className="font-semibold text-deep-brown mb-2">Education</h3>
-                <p className="text-sm text-foreground/70">AI & Data Science Engineering</p>
+                <p className="text-sm text-foreground/70">B.Tech in AI & Data Science</p>
                 <p className="text-sm text-english-brown">KDK College of Engineering</p>
               </div>
               <div className="bg-cream/50 p-4 rounded-lg">
-                <h3 className="font-semibold text-deep-brown mb-2">Focus Areas</h3>
-                <p className="text-sm text-foreground/70">Artificial Intelligence</p>
-                <p className="text-sm text-english-brown">Data Science & Analytics</p>
+                <h3 className="font-semibold text-deep-brown mb-2">Interests</h3>
+                <p className="text-sm text-foreground/70">AI Automation</p>
+                <p className="text-sm text-english-brown">Web Development & Logic</p>
               </div>
             </div>
           </div>
@@ -51,7 +52,8 @@ const About = () => {
                 <h3 className="font-playfair text-2xl font-semibold text-deep-brown mb-2">
                   Sharwari Devhare
                 </h3>
-                <p className="text-english-brown font-medium">AI & Data Science Engineer</p>
+                <p className="text-english-brown font-medium">AI & Data Science Student</p>
+                <p className="text-foreground/70 text-sm mt-2">Quick Learner • Analytical Thinker • Team Player</p>
                 <div className="mt-6 flex justify-center space-x-4">
                   <div className="w-3 h-3 bg-english-brown rounded-full"></div>
                   <div className="w-3 h-3 bg-deep-brown rounded-full"></div>

@@ -36,7 +36,7 @@ const Contact = () => {
     },
     {
       label: 'LinkedIn',
-      value: 'linkedin.com/in/sharwaridevhare',
+      value: 'Sharwari Devhare',
       href: 'https://www.linkedin.com/in/sharwaridevhare',
       icon: '💼'
     },
@@ -53,11 +53,11 @@ const Contact = () => {
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
           <h2 className="font-playfair text-4xl md:text-5xl font-bold text-deep-brown mb-6">
-            Let's Connect
+            Let's Connect & Collaborate
           </h2>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            I'm always excited to discuss new opportunities, collaborate on projects, or simply chat about 
-            the fascinating world of AI and technology.
+            I'm always excited to discuss new opportunities, collaborate on innovative projects, 
+            or simply chat about AI, web development, and the latest technology trends.
           </p>
         </div>
 
@@ -70,7 +70,8 @@ const Contact = () => {
               </h3>
               <p className="text-foreground/70 mb-8 leading-relaxed">
                 Whether you're looking for a passionate AI enthusiast to join your team, want to collaborate 
-                on an exciting project, or simply want to connect with a fellow technology lover, I'd love to hear from you.
+                on exciting projects, or need someone who combines technical skills with creative problem-solving, 
+                I'd love to hear from you.
               </p>
             </div>
 
@@ -95,9 +96,31 @@ const Contact = () => {
             <div className="bg-english-brown/5 rounded-lg p-6 border border-english-brown/20">
               <h4 className="font-semibold text-deep-brown mb-2">Quick Response Guarantee</h4>
               <p className="text-foreground/70 text-sm">
-                I typically respond to all inquiries within 24 hours. For urgent matters, 
+                I typically respond to all inquiries within 24 hours. For urgent matters or project discussions, 
                 feel free to reach out via phone or LinkedIn for faster communication.
               </p>
+            </div>
+
+            <div className="bg-white rounded-lg p-6 border border-light-beige/20">
+              <h4 className="font-semibold text-deep-brown mb-3">What I Can Help With:</h4>
+              <ul className="space-y-2 text-sm text-foreground/70">
+                <li className="flex items-center">
+                  <div className="w-2 h-2 bg-english-brown rounded-full mr-3"></div>
+                  AI automation and intelligent system development
+                </li>
+                <li className="flex items-center">
+                  <div className="w-2 h-2 bg-english-brown rounded-full mr-3"></div>
+                  Web application development and design
+                </li>
+                <li className="flex items-center">
+                  <div className="w-2 h-2 bg-english-brown rounded-full mr-3"></div>
+                  Data analysis and visualization projects
+                </li>
+                <li className="flex items-center">
+                  <div className="w-2 h-2 bg-english-brown rounded-full mr-3"></div>
+                  Python and JavaScript development
+                </li>
+              </ul>
             </div>
           </div>
 
