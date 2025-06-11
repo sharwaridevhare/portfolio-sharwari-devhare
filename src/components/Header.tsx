@@ -55,7 +55,7 @@ const Header = () => {
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <div 
-            className="font-playfair text-2xl font-bold text-deep-navy cursor-pointer"
+            className="font-playfair text-2xl font-bold text-deep-brown cursor-pointer"
             onClick={() => scrollToSection('home')}
           >
             Sharwari Devhare
@@ -68,13 +68,13 @@ const Header = () => {
                 onClick={() => scrollToSection(item.id)}
                 className={`relative font-medium transition-colors duration-300 ${
                   activeSection === item.id 
-                    ? 'text-royal-blue' 
-                    : 'text-deep-navy hover:text-royal-blue'
+                    ? 'text-english-brown' 
+                    : 'text-deep-brown hover:text-english-brown'
                 }`}
               >
                 {item.label}
                 {activeSection === item.id && (
-                  <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-royal-blue rounded-full"></span>
+                  <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-english-brown rounded-full"></span>
                 )}
               </button>
             ))}
@@ -82,7 +82,7 @@ const Header = () => {
           
           {/* Mobile menu button - simplified for this implementation */}
           <div className="md:hidden">
-            <button className="text-deep-navy">
+            <button className="text-deep-brown">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
               </svg>

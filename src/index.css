@@ -9,70 +9,71 @@
 
 @layer base {
   :root {
-    --background: 32 30% 97%;
-    --foreground: 215 25% 27%;
+    --background: 40 20% 96%;
+    --foreground: 25 15% 25%;
 
     --card: 0 0% 100%;
-    --card-foreground: 215 25% 27%;
+    --card-foreground: 25 15% 25%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 215 25% 27%;
+    --popover-foreground: 25 15% 25%;
 
-    --primary: 217 91% 60%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 20 45% 45%;
+    --primary-foreground: 40 20% 96%;
 
-    --secondary: 215 28% 17%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 15 25% 35%;
+    --secondary-foreground: 40 20% 96%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 40 15% 92%;
+    --muted-foreground: 25 10% 50%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 215 25% 27%;
+    --accent: 40 15% 92%;
+    --accent-foreground: 25 15% 25%;
 
     --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 40 20% 96%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 217 91% 60%;
+    --border: 25 20% 88%;
+    --input: 25 20% 88%;
+    --ring: 20 45% 45%;
 
     --radius: 0.5rem;
 
-    --cream: 32 30% 97%;
-    --royal-blue: 217 91% 60%;
-    --deep-navy: 215 28% 17%;
-    --light-gray: 210 20% 85%;
+    --cream: 40 20% 96%;
+    --english-brown: 20 45% 45%;
+    --burgundy: 15 45% 40%;
+    --deep-brown: 15 25% 35%;
+    --light-beige: 35 25% 85%;
   }
 
   .dark {
-    --background: 215 28% 17%;
-    --foreground: 210 40% 98%;
+    --background: 15 25% 35%;
+    --foreground: 40 20% 96%;
 
-    --card: 215 28% 17%;
-    --card-foreground: 210 40% 98%;
+    --card: 15 25% 35%;
+    --card-foreground: 40 20% 96%;
 
-    --popover: 215 28% 17%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 15 25% 35%;
+    --popover-foreground: 40 20% 96%;
 
-    --primary: 217 91% 60%;
-    --primary-foreground: 215 28% 17%;
+    --primary: 20 45% 45%;
+    --primary-foreground: 15 25% 35%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 15 20% 25%;
+    --secondary-foreground: 40 20% 96%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 15 20% 25%;
+    --muted-foreground: 25 15% 65%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 15 20% 25%;
+    --accent-foreground: 40 20% 96%;
 
     --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive-foreground: 40 20% 96%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 217 91% 60%;
+    --border: 15 20% 25%;
+    --input: 15 20% 25%;
+    --ring: 20 45% 45%;
   }
 }
 
@@ -103,23 +104,29 @@
   .bg-cream {
     background-color: hsl(var(--cream));
   }
-  .text-royal-blue {
-    color: hsl(var(--royal-blue));
+  .text-english-brown {
+    color: hsl(var(--english-brown));
   }
-  .bg-royal-blue {
-    background-color: hsl(var(--royal-blue));
+  .bg-english-brown {
+    background-color: hsl(var(--english-brown));
   }
-  .text-deep-navy {
-    color: hsl(var(--deep-navy));
+  .text-burgundy {
+    color: hsl(var(--burgundy));
   }
-  .bg-deep-navy {
-    background-color: hsl(var(--deep-navy));
+  .bg-burgundy {
+    background-color: hsl(var(--burgundy));
   }
-  .text-light-gray {
-    color: hsl(var(--light-gray));
+  .text-deep-brown {
+    color: hsl(var(--deep-brown));
   }
-  .bg-light-gray {
-    background-color: hsl(var(--light-gray));
+  .bg-deep-brown {
+    background-color: hsl(var(--deep-brown));
+  }
+  .text-light-beige {
+    color: hsl(var(--light-beige));
+  }
+  .bg-light-beige {
+    background-color: hsl(var(--light-beige));
   }
 }
 

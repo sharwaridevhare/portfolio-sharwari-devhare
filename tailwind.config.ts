@@ -58,9 +58,10 @@ export default {
 					foreground: 'hsl(var(--card-foreground))'
 				},
 				cream: 'hsl(var(--cream))',
-				'royal-blue': 'hsl(var(--royal-blue))',
-				'deep-navy': 'hsl(var(--deep-navy))',
-				'light-gray': 'hsl(var(--light-gray))',
+				'english-brown': 'hsl(var(--english-brown))',
+				'burgundy': 'hsl(var(--burgundy))',
+				'deep-brown': 'hsl(var(--deep-brown))',
+				'light-beige': 'hsl(var(--light-beige))',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

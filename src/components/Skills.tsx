@@ -18,7 +18,7 @@ const Skills = () => {
     <section id="skills" className="section-padding bg-cream/30">
       <div className="container mx-auto max-w-6xl">
         <div className="text-center mb-16">
-          <h2 className="font-playfair text-4xl md:text-5xl font-bold text-deep-navy mb-6">
+          <h2 className="font-playfair text-4xl md:text-5xl font-bold text-deep-brown mb-6">
             Skills & Technologies
           </h2>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
@@ -29,7 +29,7 @@ const Skills = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {categories.map((category) => (
             <div key={category} className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-shadow duration-300">
-              <h3 className="font-playfair text-xl font-semibold text-deep-navy mb-6 text-center">
+              <h3 className="font-playfair text-xl font-semibold text-deep-brown mb-6 text-center">
                 {category}
               </h3>
               <div className="space-y-4">
@@ -41,9 +41,9 @@ const Skills = () => {
                         <span className="text-sm font-medium text-foreground">{skill.name}</span>
                         <span className="text-xs text-foreground/60">{skill.level}%</span>
                       </div>
-                      <div className="w-full bg-light-gray/30 rounded-full h-2">
+                      <div className="w-full bg-light-beige/30 rounded-full h-2">
                         <div 
-                          className="bg-gradient-to-r from-royal-blue to-deep-navy h-2 rounded-full transition-all duration-1000 ease-out"
+                          className="bg-gradient-to-r from-english-brown to-deep-brown h-2 rounded-full transition-all duration-1000 ease-out"
                           style={{ 
                             width: `${skill.level}%`,
                             animationDelay: `${index * 100}ms`
@@ -59,7 +59,7 @@ const Skills = () => {
 
         <div className="mt-16 text-center">
           <div className="bg-white rounded-xl p-8 shadow-lg max-w-4xl mx-auto">
-            <h3 className="font-playfair text-2xl font-semibold text-deep-navy mb-4">
+            <h3 className="font-playfair text-2xl font-semibold text-deep-brown mb-4">
               Always Learning
             </h3>
             <p className="text-foreground/70 leading-relaxed">
