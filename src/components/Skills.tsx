@@ -1,18 +1,18 @@
 const Skills = () => {
   const skills = [
-    { name: 'Python', level: 90, category: 'Programming Languages' },
-    { name: 'C', level: 85, category: 'Programming Languages' },
-    { name: 'C++', level: 85, category: 'Programming Languages' },
-    { name: 'JavaScript', level: 80, category: 'Programming Languages' },
-    { name: 'HTML/CSS', level: 85, category: 'Web Technologies' },
-    { name: 'Bootstrap', level: 75, category: 'Web Technologies' },
-    { name: 'Git', level: 80, category: 'Web Technologies' },
-    { name: 'NumPy', level: 85, category: 'AI/Data Science' },
-    { name: 'Pandas', level: 80, category: 'AI/Data Science' },
-    { name: 'Matplotlib', level: 75, category: 'AI/Data Science' },
-    { name: 'Quick Learning', level: 95, category: 'Soft Skills' },
-    { name: 'Analytical Thinking', level: 90, category: 'Soft Skills' },
-    { name: 'Team Collaboration', level: 85, category: 'Soft Skills' },
+    { name: 'Python', category: 'Programming Languages' },
+    { name: 'C', category: 'Programming Languages' },
+    { name: 'C++', category: 'Programming Languages' },
+    { name: 'JavaScript', category: 'Programming Languages' },
+    { name: 'HTML/CSS', category: 'Web Technologies' },
+    { name: 'Bootstrap', category: 'Web Technologies' },
+    { name: 'Git', category: 'Web Technologies' },
+    { name: 'NumPy', category: 'AI/Data Science' },
+    { name: 'Pandas', category: 'AI/Data Science' },
+    { name: 'Matplotlib', category: 'AI/Data Science' },
+    { name: 'Quick Learning', category: 'Soft Skills' },
+    { name: 'Analytical Thinking', category: 'Soft Skills' },
+    { name: 'Team Collaboration', category: 'Soft Skills' },
   ];
 
   const categories = ['Programming Languages', 'Web Technologies', 'AI/Data Science', 'Soft Skills'];
@@ -36,23 +36,14 @@ const Skills = () => {
               <h3 className="font-playfair text-xl font-semibold text-deep-brown mb-6 text-center">
                 {category}
               </h3>
-              <div className="space-y-4">
+              <div className="space-y-3">
                 {skills
                   .filter((skill) => skill.category === category)
-                  .map((skill, index) => (
-                    <div key={skill.name} className="space-y-2">
-                      <div className="flex justify-between items-center">
-                        <span className="text-sm font-medium text-foreground">{skill.name}</span>
-                      </div>
-                      <div className="w-full bg-light-beige/30 rounded-full h-2">
-                        <div 
-                          className="bg-gradient-to-r from-english-brown to-deep-brown h-2 rounded-full transition-all duration-1000 ease-out"
-                          style={{ 
-                            width: `${skill.level}%`,
-                            animationDelay: `${index * 100}ms`
-                          }}
-                        ></div>
-                      </div>
+                  .map((skill) => (
+                    <div key={skill.name} className="text-center">
+                      <span className="text-sm font-medium text-foreground bg-light-beige/20 px-3 py-2 rounded-lg inline-block">
+                        {skill.name}
+                      </span>
                     </div>
                   ))}
               </div>
