@@ -49,14 +49,6 @@ const Certificates = () => {
                 <div className="text-foreground/70 text-sm mb-2">
                   Category: <span className="font-medium">{certificate.category}</span>
                 </div>
-                <a
-                  href={certificate.image}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-english-brown font-medium underline text-lg hover:text-english-brown/80 transition-colors"
-                >
-                  This certificate of C
-                </a>
               </div>
             </div>
           ))}
