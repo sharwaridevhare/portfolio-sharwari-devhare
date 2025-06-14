@@ -1,4 +1,3 @@
-
 const Certificates = () => {
   const certificates = [
     {
@@ -8,10 +7,19 @@ const Certificates = () => {
       date: '2024',
       description: 'Successfully completed a free online course covering fundamental concepts of C programming language.',
       image: '/lovable-uploads/44798318-8c4d-4a14-aefa-d183caf11579.png',
-      verificationUrl: '#', // Add actual verification URL if available
+      verificationUrl: '#',
+      category: 'Programming'
+    },
+    {
+      id: 2,
+      title: 'C for Beginners',
+      issuer: 'Great Learning Academy',
+      date: '2024',
+      description: 'Certificate of completion for successfully completing the C for Beginners course, demonstrating proficiency in fundamental C programming concepts.',
+      image: '/lovable-uploads/14b24444-9fec-4a26-8023-10d8cb8c8e59.png',
+      verificationUrl: '#',
       category: 'Programming'
     }
-    // You can add more certificates here following the same structure
   ];
 
   return (
