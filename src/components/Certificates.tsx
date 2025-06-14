@@ -29,7 +29,6 @@ const Certificates = () => {
               key={certificate.id}
               className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 flex flex-col items-center justify-center"
             >
-              {/* Certificate Link */}
               <a
                 href={certificate.image}
                 target="_blank"
@@ -40,23 +39,6 @@ const Certificates = () => {
               </a>
             </div>
           ))}
-        </div>
-
-        {/* Add More Certificates CTA */}
-        <div className="mt-16 text-center">
-          <div className="bg-white rounded-xl p-8 shadow-lg max-w-2xl mx-auto">
-            <h3 className="font-playfair text-2xl font-semibold text-deep-brown mb-4">
-              Continuous Learning Journey
-            </h3>
-            <p className="text-foreground/70 mb-6">
-              I'm committed to continuous learning and professional development. More certificates and achievements are being added as I expand my skillset.
-            </p>
-            <div className="flex justify-center">
-              <button className="bg-english-brown text-white px-6 py-3 rounded-lg font-medium hover:bg-english-brown/90 transition-colors duration-300">
-                View All Certificates
-              </button>
-            </div>
-          </div>
         </div>
       </div>
     </section>
