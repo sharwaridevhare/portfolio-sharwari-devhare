@@ -1,4 +1,3 @@
-
 const Skills = () => {
   const skills = [
     { name: 'Python', level: 90, category: 'Programming Languages' },
@@ -44,7 +43,6 @@ const Skills = () => {
                     <div key={skill.name} className="space-y-2">
                       <div className="flex justify-between items-center">
                         <span className="text-sm font-medium text-foreground">{skill.name}</span>
-                        <span className="text-xs text-foreground/60">{skill.level}%</span>
                       </div>
                       <div className="w-full bg-light-beige/30 rounded-full h-2">
                         <div 
