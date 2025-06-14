@@ -6,9 +6,7 @@ const Certificates = () => {
       title: 'C for Beginners',
       issuer: 'Great Learning Academy',
       date: '2024',
-      description: 'Certificate of completion for successfully completing the C for Beginners course, demonstrating proficiency in fundamental C programming concepts.',
       image: '/lovable-uploads/14b24444-9fec-4a26-8023-10d8cb8c8e59.png',
-      verificationUrl: '#',
       category: 'Programming'
     }
   ];
@@ -21,7 +19,7 @@ const Certificates = () => {
             Certificates & Achievements
           </h2>
           <p className="text-lg text-foreground/70 max-w-2xl mx-auto">
-            Certificate image and date of achievement are listed below.
+            Below you can view the certificate.
           </p>
         </div>
 
@@ -31,19 +29,15 @@ const Certificates = () => {
               key={certificate.id}
               className="bg-white rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-2 flex flex-col items-center justify-center"
             >
-              {/* Certificate Image as Link */}
-              <a href={certificate.image} target="_blank" rel="noopener noreferrer" className="block mb-4 rounded-lg overflow-hidden bg-gray-50">
-                <img
-                  src={certificate.image}
-                  alt={`Certificate`}
-                  className="w-80 h-56 object-contain"
-                />
+              {/* Certificate Link */}
+              <a
+                href={certificate.image}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-english-brown font-medium underline text-lg hover:text-english-brown/80 transition-colors"
+              >
+                View Certificate
               </a>
-
-              {/* Date */}
-              <span className="text-sm text-foreground/70 mt-2">
-                {certificate.date}
-              </span>
             </div>
           ))}
         </div>
@@ -70,4 +64,3 @@ const Certificates = () => {
 };
 
 export default Certificates;
-
