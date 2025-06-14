@@ -36,7 +36,7 @@ const Certificates = () => {
                 rel="noopener noreferrer"
                 className="text-english-brown font-medium underline text-lg hover:text-english-brown/80 transition-colors"
               >
-                View Certificate
+                This certificate of C
               </a>
             </div>
           ))}
